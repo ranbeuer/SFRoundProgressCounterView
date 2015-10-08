@@ -47,6 +47,8 @@
 
 @property (nonatomic, assign) BOOL hideFraction;
 
+@property (nonatomic, assign) BOOL hideCounterLabel;
+
 - (void)start;
 - (void)stop;
 - (void)resume;

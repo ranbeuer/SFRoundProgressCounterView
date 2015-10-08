@@ -380,5 +380,9 @@
     return _circleDistance;
 }
 
+- (void)setHideCounterLabel:(BOOL)hideCounterLabel {
+    _hideCounterLabel = hideCounterLabel;
+    self.counterLabel.hidden = _hideCounterLabel;
+}
 
 @end
